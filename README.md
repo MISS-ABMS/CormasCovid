@@ -3,13 +3,13 @@
 The model description follows the ODD protocol for describing individual- and agent-based models (Grimm et al. 2006; 2010, 2020) and consists of seven elements. The first three elements provide an overview, the fourth element explains general concepts underlying the model’s design, and the remaining three elements provide details.
  
 ## Purpose
- *Methodology for preventing spread (decision support) or provide evidence on how the virus would spread (understanding) ? *
+ *Methodology for preventing spread (decision support) or provide evidence on how the virus would spread (understanding) ?*
 In the text : “Health authorities are requesting the scientific community working with agent-based simulation to provide insights about the relative efficiency of both strategies”
 -> we will need indicators for comparing the efficiency of the strategies 
  
 ## Entities State variables and scales
-* ? probabilities of contagion , being symptomatic  / asymptomatic ? *
-* ? in the test-and-isolate, how is it decided who will be tested ? *
+*? probabilities of contagion , being symptomatic  / asymptomatic ?*
+*? in the test-and-isolate, how is it decided who will be tested ?*
  Person 
 Activity / location : work / school / home 
 State : Immune / infected / incubation / initial 
@@ -53,7 +53,7 @@ Stochasticity. –
 Collectives. –
 Observation. –
  Initialization
-* Q :  do we have patient 0? all person are potentially susceptible or there is someone already immune? *
+*Q :  do we have patient 0? all person are potentially susceptible or there is someone already immune?*
 
 <Describe the setup procedure of your model/program, using NetLogo syntax. It is not necessary that you program already everything in detail, but just combine simple commands, which are clear anyway, like “ca”, and comment lines which explain, what the setup procedure will do, for example:
  
@@ -79,14 +79,14 @@ end
 
 # General guidelines for programming
  
-o   First, write the “skeleton” of the model, i.e. globals, turtles-own, patches-own, setup and go procedures, and names (to something … end) of all procedures, but leaving the procedures empty.
-o   Check for correct syntax regularly, as a beginner perhaps after each new line or block of lines that you entered.
-o   First implement the setup procedure, and test it.
-o   Then implement the most simple process, and use the most simple representation of this process, even you know that later on you would like to have a more sophisticated representation.
-o   Before you proceed to implementing the next process/procedure, make sure you tested the first procedure thoroughly, which includes: visual debugging (check, visually, time step by time step, how the state of the turtles and patches change), use extreme parameter values, where you easily can predict the outcome of the model, for example if mortality is 1.0, all individuals should die…
-o   Make sure including comments that explain the main parts of your model
-o   Always: only include new elements (procedure or whatever), if you testet the current version thoroughly.
-o   If you plan major changes, save the new version under a new file name. Then, if the new version ends up in a total mess, which often is the case, you can restart with the old version.
+-   First, write the “skeleton” of the model, i.e. globals, turtles-own, patches-own, setup and go procedures, and names (to something … end) of all procedures, but leaving the procedures empty.
+-   Check for correct syntax regularly, as a beginner perhaps after each new line or block of lines that you entered.
+-   First implement the setup procedure, and test it.
+-   Then implement the most simple process, and use the most simple representation of this process, even you know that later on you would like to have a more sophisticated representation.
+-   Before you proceed to implementing the next process/procedure, make sure you tested the first procedure thoroughly, which includes: visual debugging (check, visually, time step by time step, how the state of the turtles and patches change), use extreme parameter values, where you easily can predict the outcome of the model, for example if mortality is 1.0, all individuals should die…
+-   Make sure including comments that explain the main parts of your model
+-   Always: only include new elements (procedure or whatever), if you testet the current version thoroughly.
+-   If you plan major changes, save the new version under a new file name. Then, if the new version ends up in a total mess, which often is the case, you can restart with the old version.
 
 ## Emergence
 A certain system property or behaviour is emergent if it is not directly specified by individual traits. Which properties of the model system really do emerge from the interaction of the adaptive behaviour of the individuals, and which are merely imposed? For example, assuming a constant mortality rate means that mortality has been imposed, whereas if the sources of mortality are modelled mechanistically (e.g., including feeding, habitat choice, predation) then the mortality rate and population dynamics emerge from adaptive traits.
