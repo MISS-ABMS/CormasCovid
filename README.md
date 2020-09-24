@@ -18,6 +18,7 @@ The following class diagram presents the main types of entities and their state 
 Each time step:
 - all viral loads evolve and 
 - the viral state of individual is updated (scuceptible, infected etc.)
+- people go to work
 
  
 ## Design concepts
@@ -37,6 +38,9 @@ Observation. –
 ## Initialization
 *Q :  do we have patient 0? all person are potentially susceptible or there is someone already immune?*
 
+- Differerent kinds of places are created (houses, working places, schools etc.)
+- Families of individuals are situated in their homes
+- One individual in one family in one house is EXPOSED :worried:!
  
 ## Input
  
