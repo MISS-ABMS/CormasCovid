@@ -8,36 +8,12 @@ In the text : “Health authorities are requesting the scientific community work
 -> we will need indicators for comparing the efficiency of the strategies 
  
 ## Entities State variables and scales
-*? probabilities of contagion , being symptomatic  / asymptomatic ?*
-*? in the test-and-isolate, how is it decided who will be tested ?*
- Person 
-Activity / location : work / school / home 
-State : Immune / infected / incubation / initial 
-Symptoms : yes / no
-Date of contact 
-Date of infection 
-Date of recovery
-Global 
-Strategy : confinement / test-and-isolate
-<Describe:
-·         Entities: The “entities” (things) of the model: what type of agents, what type of patches (if the model is grid-based), and other environmental variables, for example seasonal rainfall patterns. 
-·         State variables: The variables you want to use to characterize your entities. (Very likely you know this only later in detail, but at least you should come up with some first ideas.)
-o   Please use NetLogo syntax to describe the turtles, breeds, patches etc. you want to have in your model:
-Globals [ … ]
-Turtles-own [ … ]
-Patches-own [ … ]
-·         Scales: The length of one time step, and how long one simulation run typically is going to run. The size of a grid cell, or patch, and the number of patches in x- and y-direction.>
+The following class diagram presents the main types of entities and their state variables (attributes)
+![Model Class diagram](images/class-diag.png)
  
-## Process overview and scheduling
+## Process overview and scheduling
  
-<Which processes are represented in the model, in which order are they processed, and who is processing them (observer, turtle, or patch). Please use NetLogo syntax to list the central schedule of your model, for example:
- 
-to go
-    ask turtles [Process1]; <short description of process 1, turtle process>
-    process2; <short description of process2; observer process>
-    ask patches [process3] ; <short description of process3; patch process>
-    ..
-end
+<Which processes are represented in the model, in which order are they processed, and who is processing them (which kind of entity). 
  
 ## Design concepts
  
@@ -52,19 +28,10 @@ Interaction. –
 Stochasticity. –
 Collectives. –
 Observation. –
- Initialization
+
+## Initialization
 *Q :  do we have patient 0? all person are potentially susceptible or there is someone already immune?*
 
-<Describe the setup procedure of your model/program, using NetLogo syntax. It is not necessary that you program already everything in detail, but just combine simple commands, which are clear anyway, like “ca”, and comment lines which explain, what the setup procedure will do, for example:
- 
-to setup
-            ca  
-; setup landscape (patches), which will be a random mixture of different patch types
- 
-; setup turtles, which includes defining their initial state (variables)
- 
-..
-end
  
 ## Input
  
