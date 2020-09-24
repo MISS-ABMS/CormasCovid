@@ -8,12 +8,17 @@ In the text : “Health authorities are requesting the scientific community work
 -> we will need indicators for comparing the efficiency of the strategies 
  
 ## Entities State variables and scales
-The following class diagram presents the main types of entities and their state variables (attributes)
+The following class diagram presents the main types of entities and their state variables (attributes).
 ![Model Class diagram](images/class-diag.png)
  
 ## Process overview and scheduling
  
 <Which processes are represented in the model, in which order are they processed, and who is processing them (which kind of entity). 
+
+Each time step:
+- all viral loads evolves and 
+- the viral state of individual is updated (scuceptible, infected etc.)
+
  
 ## Design concepts
  
