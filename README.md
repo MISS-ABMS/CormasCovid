@@ -38,12 +38,11 @@ Observation. –
 ## Initialization
 *Q :  do we have patient 0? all person are potentially susceptible or there is someone already immune?*
 
-- Differerent kinds of places are created (houses, working places, schools etc.) in a fixed configuration as presented in the following Figure:
-
-![Covid city map](images/init-state.png)
-
+- Differerent kinds of places are created (houses, working places, schools etc.) in a fixed configuration as presented in the following Figure below.
 - Families of individuals are situated in their homes
 - One individual in one family in one house is EXPOSED :worried:!
+
+![Covid city map](images/init-state.png)
  
 ## Input
  
