@@ -1,6 +1,8 @@
 # Cormas Covid 2020
  
 The model description follows the ODD protocol for describing individual- and agent-based models (Grimm et al. 2006; 2010, 2020) and consists of seven elements. The first three elements provide an overview, the fourth element explains general concepts underlying the model’s design, and the remaining three elements provide details.
+
+![](images/CormasLogoFull.png)
  
 ## Purpose
  *Methodology for preventing spread (decision support) or provide evidence on how the virus would spread (understanding) ?*
