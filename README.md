@@ -16,7 +16,7 @@ The following class diagram presents the main types of entities and their state 
 <Which processes are represented in the model, in which order are they processed, and who is processing them (which kind of entity). 
 
 Each time step:
-- all viral loads evolves and 
+- all viral loads evolve and 
 - the viral state of individual is updated (scuceptible, infected etc.)
 
  
