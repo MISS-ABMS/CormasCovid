@@ -8,7 +8,7 @@ In the text : “Health authorities are requesting the scientific community work
 -> we will need indicators for comparing the efficiency of the strategies 
  
 ## Entities State variables and scales
-The following class diagram presents the main types of entities and their state variables (attributes).
+The following class diagram presents the main types of entities and their state variables (attributes). The scale extent is a small village and the granularity is the individual.
 ![Model Class diagram](images/class-diag.png)
  
 ## Process overview and scheduling
@@ -38,7 +38,10 @@ Observation. –
 ## Initialization
 *Q :  do we have patient 0? all person are potentially susceptible or there is someone already immune?*
 
-- Differerent kinds of places are created (houses, working places, schools etc.)
+- Differerent kinds of places are created (houses, working places, schools etc.) in a fixed configuration as presented in the following Figure:
+
+![Covid city map](images/init-state.png)
+
 - Families of individuals are situated in their homes
 - One individual in one family in one house is EXPOSED :worried:!
  
