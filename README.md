@@ -22,7 +22,7 @@ Each time step:
 - people go to work
 
 Following is a state-transition diagram showing the evolution of the state of a person:
-![Model State-Transition diagram of person's state](images/ST-diag.png)
+![Model State-Transition diagram of person's state](images/ST-diag.png) 
  
 ## Design concepts
  
