@@ -14,7 +14,7 @@ The following class diagram presents the main types of entities and their state 
  
 ## Process overview and scheduling
  
-<Which processes are represented in the model, in which order are they processed, and who is processing them (which kind of entity). 
+<Which processes are represented in the model, in which order are they processed, and who is processing them, which kind of entity.> 
 
 Each time step:
 - all viral loads evolve and 
