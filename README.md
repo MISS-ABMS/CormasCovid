@@ -18,7 +18,7 @@ The following class diagram presents the main types of entities and their state 
 
 Each time step:
 - all viral loads evolve and 
-- the viral state of individual is updated (scuceptible, infected etc.)
+- the viral state of individual is updated (suceptible, infected etc.)
 - people go to work
 
  
