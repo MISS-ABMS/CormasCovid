@@ -5,7 +5,8 @@ The model description follows the ODD protocol for describing individual- and ag
 ## Purpose
  *Methodology for preventing spread (decision support) or provide evidence on how the virus would spread (understanding) ?*
 In the text : “Health authorities are requesting the scientific community working with agent-based simulation to provide insights about the relative efficiency of both strategies”
--> we will need indicators for comparing the efficiency of the strategies 
+-> we will need indicators for comparing the efficiency of the strategies: 
+Our first indicator is that the number of serious infectious cases remains always below the hospital capacity (number of days when the hosptial capacity is overladed). The second is the incidence of the disease. The third is the estimation of R0. The last one is the number of severe cases that can't have access to hospital because it is overloaded.
  
 ## Entities State variables and scales
 The following class diagram presents the main types of entities and their state variables (attributes). The scale extent is a small village and the granularity is the individual.
